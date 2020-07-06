@@ -1,7 +1,7 @@
 
 var Database = [
     {
-        username: "Lokesh",
+        username: "Loki",
         password: "Loki Lords"
     }    
 ];
@@ -16,8 +16,8 @@ var Newsfeed = [
     }
 ];
 
-var usernamePrompt=prompt("What is ur username?");
-var passwordPrompt=prompt("What is ur password?");
+var usernamePrompt=prompt("What is your user name?");
+var passwordPrompt=prompt("What is your password?");
 
 function signIn(user, pass){
 if(user==Database[0].username && pass==Database[0].password)
@@ -26,7 +26,7 @@ console.log(Newsfeed);
 }
 else
 {
- alert("sorry! ur user and pass or incorrect!");   
+ alert("sorry! your user and pass or incorrect!");   
 }
 }
 signIn(usernamePrompt,passwordPrompt);
